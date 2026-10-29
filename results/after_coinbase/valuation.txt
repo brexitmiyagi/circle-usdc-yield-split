@@ -1,0 +1,35 @@
+Start: USDC $71.71bn, all stablecoins $302.3bn. Reserve return path (forward curve less 0.23pt): 4.38%, 4.67%, 4.77%, then flat. Keep 36.4%, held as yields move (backtest_keep.py).
+Added once: cash and receivables $1850m, Arc stake $750m, Tazapay $400m, federal NOL tax shield $76m (present value); shares 274.9m (Q2 diluted 268.6m + Binance 1.24m + Tazapay 5.01m at $79.84)
+flat: value $21.64; year 1 USDC $65bn earns $214m, year 10 USDC $72bn earns $352m
+jpmorgan: value $64.16; year 1 USDC $85bn earns $478m, year 10 USDC $185bn earns $1898m
+standard_chartered: value $227.99; year 1 USDC $102bn earns $717m, year 10 USDC $597bn earns $8334m
+Discount rate 11.6% (CAPM, beta.py); float drag 15.6% per 1.00pt (rate_drag.py)
+My weights flat 35%, jpmorgan 55%, standard_chartered 10% (set 27 Oct): $65.66 today vs $79.84 (-18%)
+12-month price target: $65.66 rolled forward one year at 11.6% = $73.28 vs $79.84 (-8%)
+  the price implies a 17.9% weight on Standard Chartered (rest at my 35:55 flat:JPMorgan ratio)
+Cross-check, options market (Jan-2028 expiry, 1.23 years, CRCL 80.31 on 28 Oct): scenario values rolled forward at 11.6% split at $43 and $138; odds below $43 32.2%, $43-$138 52.9%, above $138 15.0%; value $75.00, target $83.70 (+5%)
+  where I differ from the options: +2.8% on flat, +2.1% on JPMorgan, -5.0% on Standard Chartered
+  rating range (target within 15% of the price = HOLD): price $63.72 to $86.21
+Multiples: target $73.28 is 52x my 2027 GAAP EPS ($1.40) and 60x ex-ARC ($1.22); the price is 57x and 66x
+  flat: owner earnings per share year 3 $0.83, year 5 $0.90, year 10 $1.28
+  jpmorgan: owner earnings per share year 3 $3.82, year 5 $4.90, year 10 $6.90
+  standard_chartered: owner earnings per share year 3 $10.40, year 5 $21.65, year 10 $30.32
+Sensitivities of the weighted value:
+  rate drag 0.0% per 1.00pt: $79.26
+  rate drag 12.3% per 1.00pt: $68.58
+  rate drag 19.0% per 1.00pt: $62.75
+  rate drag 24.0% per 1.00pt: $58.39
+  yields flat at 3.76% (no drag needed): $60.96
+  keep 35.1% (method low, uncorrected): $63.05
+  keep 35.4% (method high, uncorrected): $63.54
+  keep 38.5% (Q2 level, as if no Hyperliquid hit): $69.95
+  discount rate 10.6%: $73.96
+  discount rate 12.6%: $59.13
+  discount rate 12.8%: $58.05
+  Arc stake at half the presale price: $64.30
+  USDC losing 0.5 point of stablecoin share a year (from 23.7%): $53.58, target $59.80
+  USDC losing 1.0 point of stablecoin share a year (from 23.7%): $41.50, target $46.31
+  weights 35%/55%/10%: $65.66
+  weights 50%/45%/5%: $51.09
+  weights 60%/40%/0%: $38.65
+  keep moving with yield at Circle's rate table (51.2% of a change): $73.26

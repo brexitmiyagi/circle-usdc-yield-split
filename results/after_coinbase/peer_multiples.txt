@@ -1,0 +1,7 @@
+My 2027 GAAP EPS $1.40; CRCL $81.71 = 58.4 times it
+  V: $400.60 / $15.03 (Sep 2027, 16 estimates) = 26.7x -> Circle $37.31
+  MA: $610.31 / $22.95 (Dec 2027, 17 estimates) = 26.6x -> Circle $37.23
+  HOOD: $91.43 / $3.09 (Dec 2027, 10 estimates) = 29.6x -> Circle $41.42
+  COIN: $162.32 / $3.01 (Dec 2027, 13 estimates) = 53.9x -> Circle $75.50
+  PYPL: $56.55 / $5.85 (Dec 2027, 14 estimates) = 9.7x -> Circle $13.53
+  five-peer median 26.7x -> $37.31
