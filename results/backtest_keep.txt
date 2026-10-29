@@ -1,0 +1,11 @@
+Quarter  actual  method, flows only (range, mid)  same as last  method + yield adj  yield adj only
+-------  ------  ---------------------------------  ------------  ------------------  --------------
+Q3-25    37.1%   36.2% to 36.5%, 36.4% (-0.8pt)     35.9% (-1.2pt)  36.3% (-0.8pt)     35.9% (-1.3pt)
+Q4-25    37.1%   36.8% to 37.1%, 37.0% (-0.1pt)     37.1% (+0.0pt)  35.8% (-1.3pt)     35.9% (-1.2pt)
+Q1-26    37.9%   37.2% to 37.3%, 37.2% (-0.6pt)     37.1% (-0.8pt)  36.1% (-1.8pt)     35.9% (-2.0pt)
+Q2-26    38.5%   38.0% to 38.2%, 38.1% (-0.5pt)     37.9% (-0.7pt)  38.0% (-0.5pt)     37.8% (-0.7pt)
+
+Mean miss over 4 quarters: method 0.50pt (always low, by 0.50pt on average); same as last quarter 0.67pt; method with the yield adjustment 1.11pt; yield adjustment alone 1.29pt
+Reading: measured flows beat the naive rule. The method runs low because Circle's own platform kept growing in ways the
+chain doesn't show. Circle's rate table (51.2% of a yield change) made the past four quarters worse: yields fell and the keep rose.
+Q3-25 is also the quarter Circle's August 2025 Binance wallet deal started; a contract change is the kind of thing this method can't see.

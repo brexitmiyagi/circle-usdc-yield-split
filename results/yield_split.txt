@@ -1,0 +1,8 @@
+Q2-25: Coinbase bucket 23.0%, Circle bucket 7.4%, shared 69.6% | Coinbase gets 42.6% of shared-pool yield | Circle keeps 35.9% of all reserve income | deductions before the 50/50 split ~44bp of float a year
+Q3-25: Coinbase bucket 22.1%, Circle bucket 13.5%, shared 64.4% | Coinbase gets 42.8% of shared-pool yield | Circle keeps 37.1% of all reserve income | deductions before the 50/50 split ~37bp of float a year
+Q4-25: Coinbase bucket 23.7%, Circle bucket 15.6%, shared 60.7% | Coinbase gets 43.2% of shared-pool yield | Circle keeps 37.1% of all reserve income | deductions before the 50/50 split ~32bp of float a year
+Q1-26: Coinbase bucket 25.3%, Circle bucket 17.2%, shared 57.5% | Coinbase gets 43.5% of shared-pool yield | Circle keeps 37.9% of all reserve income | deductions before the 50/50 split ~29bp of float a year
+Q2-26: Coinbase bucket 26.0%, Circle bucket 19.5%, shared 54.5% | Coinbase gets 40.1% of shared-pool yield | Circle keeps 38.5% of all reserve income | deductions before the 50/50 split ~37bp of float a year
+(Q4-25 average USDC 76.19bn and Circle on-platform 15.6% are derived from 10-K full-year figures)
+Circle bucket grew from 7.4% to 19.5% of float in a year: about $9.3bn moved onto Circle's platform.
+At a 3.50% reserve return, the 40% of shared-pool yield Coinbase took in Q2-26 is worth about $130m a year on that float, before any incentives Circle pays to attract it.

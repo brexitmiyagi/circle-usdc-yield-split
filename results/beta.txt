@@ -1,0 +1,7 @@
+CRCL: weekly beta 1.86 (50 weeks), daily 2.94
+COIN: weekly beta 1.82 (50 weeks), daily 2.92
+HOOD: weekly beta 3.15 (50 weeks), daily 3.18
+PYPL: weekly beta 0.54 (50 weeks), daily 1.00
+V: weekly beta 0.13 (50 weeks), daily 0.28
+MA: weekly beta 0.18 (50 weeks), daily 0.27
+CRCL weekly beta 1.86, Blume-adjusted 1.57; cost of equity = 4.99% + 1.57 x 4.2% = 11.6% (raw beta: 12.8%). Circle has no debt, so this is the discount rate.

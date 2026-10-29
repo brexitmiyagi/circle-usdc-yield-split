@@ -1,0 +1,35 @@
+Base case: USDC Q3-26 $73.4bn, Q4-26 $72.9bn (October to date), then JPMorgan's path (31.8% a year) less a 16%-per-100bp rate drag
+Reserve return: Q3-26 3.55%, Q4-26 3.90%, then the Treasury forward curve (10/27/2026) less 0.23pt: Q1-27 4.33%, Q2-27 4.43%, Q3-27 4.55%, Q4-27 4.67%
+Keep: 35.7% (measured Q3, corrected for the backtest's average miss), held as yields move
+
+Q3-26: USDC $73.4bn | RI $657m | keep 35.7% | revenue $779m | RLDC 45.6% | adj EBITDA $203m | NI $105m | GAAP EPS $0.39 (ex-ARC $0.07) | cash $1872m | check -0.00
+Q4-26: USDC $72.9bn | RI $717m | keep 35.7% | revenue $839m | RLDC 44.9% | adj EBITDA $225m | NI $127m | GAAP EPS $0.47 (ex-ARC $0.16) | cash $1918m | check -0.00
+Q1-27: USDC $71.2bn | RI $760m | keep 35.7% | revenue $827m | RLDC 40.7% | adj EBITDA $178m | NI $74m | GAAP EPS $0.27 (ex-ARC $0.18) | cash $1969m | check -0.00
+Q2-27: USDC $75.0bn | RI $828m | keep 35.7% | revenue $895m | RLDC 40.3% | adj EBITDA $203m | NI $95m | GAAP EPS $0.34 (ex-ARC $0.25) | cash $2042m | check -0.00
+Q3-27: USDC $78.7bn | RI $902m | keep 35.7% | revenue $938m | RLDC 38.0% | adj EBITDA $198m | NI $92m | GAAP EPS $0.33 (ex-ARC $0.33) | cash $2144m | check -0.00
+Q4-27: USDC $82.5bn | RI $971m | keep 35.7% | revenue $1006m | RLDC 37.8% | adj EBITDA $223m | NI $113m | GAAP EPS $0.40 (ex-ARC $0.40) | cash $2268m | check -0.00
+
+Against consensus (GAAP diluted EPS; total revenue and reserve income):
+  Q3-26: revenue $779m vs $787m (-1.0%); GAAP EPS $0.39 vs $0.379 Yahoo / $0.40 Nasdaq; at a 5.1% tax rate $0.39; ex-ARC $0.07; keep 35.7%
+  Q4-26: revenue $839m vs $833m (+0.8%); GAAP EPS $0.47 vs $0.334 Yahoo / $0.32 Nasdaq; at a 5.1% tax rate $0.47; ex-ARC $0.16; keep 35.7%
+  FY26: revenue $3014m vs $3026m (-0.4%); GAAP EPS $1.25 vs $1.111 Yahoo / $1.10 Nasdaq; at a 5.1% tax rate $1.25; ex-ARC $0.62; keep 36.9%
+  FY27: revenue $3666m vs $3835m (-4.4%); GAAP EPS $1.35 vs $1.412 Yahoo / $1.37 Nasdaq; at a 5.1% tax rate $1.54; ex-ARC $1.16; keep 35.7%
+
+Line by line (my numbers; Street revenue/EPS from Yahoo; Circle FY26 guidance from the Q2-26 call):
+  Q3-26: RI $657m | other ex-ARC $32m | ARC $90m | revenue $779m | distribution $422m (keep 35.7%) | RLDC $355m (45.6%) | adj opex $152m | adj EBITDA $203m | NI $105m | EPS $0.39
+  Q4-26: RI $717m | other ex-ARC $32m | ARC $90m | revenue $839m | distribution $461m (keep 35.7%) | RLDC $377m (44.9%) | adj opex $152m | adj EBITDA $225m | NI $127m | EPS $0.47
+  FY26: RI $2694m | other ex-ARC $140m | ARC $180m | revenue $3014m | distribution $1699m (keep 36.9%) | RLDC $1308m (43.4%) | adj opex $585m | adj EBITDA $723m | NI $336m | EPS $1.25
+  FY27: RI $3461m | other ex-ARC $143m | ARC $62m | revenue $3666m | distribution $2224m (keep 35.7%) | RLDC $1434m (39.1%) | adj opex $632m | adj EBITDA $802m | NI $375m | EPS $1.35
+  FY26 vs guidance: other revenue $320m (guide $310m-$330m); RLDC margin 43.4% (guide 41.7%-43.7%); adj opex $585m (guide $570m-$585m)
+  Guidance-implied FY26 adj EBITDA on the Street's $3026m revenue: $677m to $752m; mine $723m
+Q4-26 walk: my GAAP EPS $0.47 at a 3.90% reserve return; $0.44 at 3.76% (fund at end-Sep less 0.08pt); $0.38 at Q3's 3.55%.
+  The Street's Q4 revenue ($833m) on my reserve income implies $83m of ARC; with that, my EPS is $0.45. Getting to the Street's $0.334 then needs $32m less pretax income in Q4: a keep of 31.3% instead of 35.7%, adjusted opex of $184m instead of the $152m Circle's FY guide leaves for each H2 quarter, or less of the $19m I have Circle earning on its own cash.
+2027 tax: federal NOLs left after 2026 $196m (from $478.8m, 80% limit, 2026 pretax $354m), all used in 2027 against $451m pretax; 2027 effective rate 17.0% (5.1% non-federal + federal on the unsheltered part). Valuation-allowance release left out.
+
+Headline call, Q3-26 EPS ex-ARC: $0.07; each point of keep moves it $0.023, each $10m of opex $0.035; range $0.01 to $0.13 (keep 34.7% to 36.7%, opex +/- $10m)
+
+ARC timing (Q3-26 GAAP EPS if ARC revenue in the quarter is $0, $90m or $180m; each $10m is about $0.035):
+  ARC $0m: Q3 revenue $689m, GAAP EPS $0.07
+  ARC $90m: Q3 revenue $779m, GAAP EPS $0.39
+  ARC $180m: Q3 revenue $869m, GAAP EPS $0.71
+The Street's Q3 revenue ($787m) only fits if it includes roughly $98m of ARC revenue on my reserve income.

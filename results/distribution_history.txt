@@ -1,0 +1,18 @@
+Share of reserve income: Circle keeps / paid to Coinbase / paid to everyone else
+  FY23: keeps 49.7% | Coinbase 48.3% | others $28.5m = 2.0%  (prospectus basis)
+  FY24: keeps 39.1% | Coinbase 55.7% | others $86.3m = 5.2%  (10-K FY25 basis)
+  FY25: keeps 37.0% | Coinbase 51.7% | others $298.6m = 11.3%  (10-K FY25 basis)
+  H1-26: keeps 38.2% | Coinbase 49.6% | others $160.5m = 12.2%  (10-Q Q2-26 basis)
+  Q2-25: keeps 35.9% | Coinbase 52.4% | others $74.2m = 11.7%
+  Q2-26: keeps 38.5% | Coinbase 48.6% | others $85.8m = 12.9%
+Binance cost to Circle in 2025: between $212.3m and $238.4m (FY24 Binance cost between the $60.25m upfront fee and the $86.3m paid to all non-Coinbase partners, plus the $152.1m increase)
+Binance's USDC in 2025 (its proof-of-reserves reports): $7.79bn held on average, of which $5.41bn belonged to customers
+Circle's 2025 reserve return: 4.06%
+Binance cost per dollar of USDC Binance held: 2.73% to 3.06% a year, so 67% to 75% of what that dollar earned in reserves
+What Circle keeps on a dollar Binance holds: 1.00% to 1.34% a year
+What Circle kept on the average dollar of USDC in 2025: 1.50% a year
+What Circle kept on the average dollar of USDC in Q2-26: 1.35% a year
+Binance's $100m share purchase (Sep 2026) against its 2025 fees: 47% to 42% of one year
+H1-26 reserve return 3.51% vs 5.0% in 2024. At 2024's rate, Circle would have kept 42.0% in H1-26 (actual 38.2%)
+2024 keep without the one-off Binance fee: 42.8% (with it: 39.1%)
+Cents kept per dollar of float at a 5.0% return: 2024 2.14c on $33.3bn, H1-26 2.10c on $75.9bn; the extra $42.5bn earned 2.07c, 97% of the 2024 rate

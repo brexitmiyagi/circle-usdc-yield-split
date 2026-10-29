@@ -1,0 +1,10 @@
+USDC peak 79.63bn on 2026-03-18; 71.71bn on 2026-10-26 (-9.9% from peak)
+All stablecoins peak 315.5bn on 2026-05-17; 302.3bn on 2026-10-26
+USDC share of all stablecoins: Q2-26 average 24.6%, now 23.7%
+USDC change over 30 days to 2026-10-26: -5.0%
+USDT change over 30 days to 2026-10-26: -0.7%
+USDC 12 months ago 75.9bn -> 71.7bn (-5.5%)
+USDC 5 years ago 29.7bn -> 71.7bn, 19.3% a year
+Low after the 2023 bank failures: 23.2bn on 2023-11-15
+Tether Q2-26 net operating profit $1500m on $183.64bn of liabilities: 3.27% of float a year (before marks on bitcoin and gold)
+Circle Q2-26 reserve income less distribution costs: 1.35% of float a year; adjusted EBITDA 0.75%

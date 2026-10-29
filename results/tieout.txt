@@ -1,0 +1,12 @@
+Q2-25 USDC average: Circle 61.04bn, DefiLlama 60.91bn, gap -0.21%
+Q3-25 USDC average: Circle 67.84bn, DefiLlama 67.49bn, gap -0.51%
+Q1-26 USDC average: Circle 75.20bn, DefiLlama 75.28bn, gap +0.11%
+Q2-26 USDC average: Circle 76.52bn, DefiLlama 76.73bn, gap +0.26%
+Q2-25 Circle paid Coinbase 332.3m, Coinbase reports 332m from USDC, gap -0.1%
+Q1-26 Circle paid Coinbase 330.6m, Coinbase reports 324m from USDC, gap -2.0%
+Q2-26 Circle paid Coinbase 324.6m, Coinbase reports 320m from USDC, gap -1.4%
+Q2-25 reserve return: printed 4.1%, rebuilt 4.17%
+Q1-26 reserve return: printed 3.5%, rebuilt 3.52%
+Q2-26 reserve return: printed 3.5%, rebuilt 3.50%
+Q2-26 total revenue 701.3m, RLDC 288.8m, margin 41.2%
+ALL TIE-OUTS PASS

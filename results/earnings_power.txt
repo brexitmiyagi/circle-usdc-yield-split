@@ -1,0 +1,6 @@
+Inputs: float 71.71bn (2026-10-26), reserve return 3.76% (fund 30 Sep less 0.08pt), recurring other revenue $150m (H1-26 x2, no ARC), adj opex $577.5m, stock pay $214m, D&A $120m, diluted shares 268.6m, tax 21%
+Q2-26 keep 38.5%: adj EBITDA $612m, owner EPS $1.01, 79x at $79.84
+keep after Hyperliquid 35.0%: adj EBITDA $517m, owner EPS $0.73, 110x at $79.84
+Q2-26 adj EBITDA x4 = $574m (check)
+Per year of owner EPS at the post-Hyperliquid keep: +$10bn of USDC +0.39; +25bp of yield +0.28 (Circle keeps 51.2% of a yield change); +1pt of keep +0.08
+Street: Q3 revenue $787.7m, Q3 EPS $0.38, FY27 EPS $1.43, mean target $107

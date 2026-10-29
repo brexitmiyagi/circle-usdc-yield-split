@@ -1,0 +1,6 @@
+quarter,reserve_income_m,coinbase_bucket_pct,circle_bucket_pct,shared_pool_pct,coinbase_take_of_shared_pct,circle_keep_of_reserve_income_pct,deductions_before_split_bp_of_float,circle_keep_shared_pct
+Q2-25,634.3,23.0,7.4,69.6,42.6,35.9,44,57.4
+Q3-25,711.0,22.1,13.5,64.4,42.8,37.1,37,57.2
+Q4-25,733.0,23.7,15.6,60.7,43.2,37.1,32,56.8
+Q1-26,652.5,25.3,17.2,57.5,43.5,37.9,29,56.5
+Q2-26,667.7,26.0,19.5,54.5,40.1,38.5,37,59.9

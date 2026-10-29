@@ -1,0 +1,6 @@
+Circle Reserve Fund net 7-day yield, quarterly average: Q1-26 3.60%, Q2-26 3.57%, Q3-26 3.62%
+Fund yield minus Circle's rebuilt reserve return: Q1-26 0.08pt, Q2-26 0.07pt (avg 0.08pt; cash at banks earns less)
+Fund net 7-day yield at 30 Sep 2026: 3.84% (30 Jun: 3.6%); repo share of fund fell from 86.0% to 59.1%, WAM 4 -> 17 days
+Q3-26 USDC average (DefiLlama) 73.54bn -> Circle basis 73.40bn (vs 76.524bn in Q2)
+PRE-REGISTERED Q3-26: reserve return 3.55%, reserve income $656m (range $643m to $669m) vs Q2-26 $668m
+USDC on 2026-10-26: 71.71bn, -6.3% vs the Q2-26 average

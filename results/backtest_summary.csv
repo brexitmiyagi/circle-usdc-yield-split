@@ -1,0 +1,7 @@
+item,value
+method_mae_pt,0.502
+method_bias_pt,-0.502
+naive_mae_pt,0.667
+method_yield_adj_mae_pt,1.106
+yield_only_mae_pt,1.293
+quarters,4

@@ -1,0 +1,15 @@
+Split starts 2026-06-13: before it, all native Hyperliquid USDC sat in Circle's Core Deposit Wallet ($4.88bn on 2026-06-12); on 2026-06-13 Coinbase's treasury held $4.43bn and Circle's wallet $0.49bn
+Latest 2026-10-28: Coinbase $5.679bn, Circle $0.631bn, Coinbase share 90.00%
+Quarterly averages ($bn): Coinbase treasury Q2 0.923, Q3 5.254; Circle wallet Q2 1.446, Q3 0.584; legacy Arbitrum bridge (DefiLlama) Q2 2.782, Q3 0.427
+  Circle's shared-pool take low (1.59%): on Hyperliquid's USDC Circle keeps $24.1m on Q2's mix and $6.9m on Q3's (-17.2m); Circle pays Coinbase $18.2m and $48.5m (+30.3m), both at a 3.55% return for 92 days
+  Circle's shared-pool take high (2.13%): on Hyperliquid's USDC Circle keeps $27.8m on Q2's mix and $7.5m on Q3's (-20.3m); Circle pays Coinbase $18.2m and $48.5m (+30.3m), both at a 3.55% return for 92 days
+Binance customers' USDC Q3 vs Q2: -1.38bn -> Circle keeps $-4.7m to $-3.5m (if it sits on Circle's side)
+Measured: Hyperliquid alone moves Circle's Q3 keep by $-20.3m to $-17.2m and its payment to Coinbase by $+30.3m to $+30.3m
+Circle's keep (keep_method.py, the backtested method): 38.5% in Q2 -> 35.1% to 35.4% in Q3, before any undisclosed Circle/Coinbase side share
+The method ran 0.5pt low on average over the last 4 quarters (backtest_keep.py); corrected for that, the midpoint is 35.7%
+  Q3 reserve income $643m: Circle's payment to Coinbase about $343m (Q2-26: $324.6m)
+  Q3 reserve income $656m: Circle's payment to Coinbase about $349m (Q2-26: $324.6m)
+  Q3 reserve income $669m: Circle's payment to Coinbase about $356m (Q2-26: $324.6m)
+Circle's own platform: Q2 average $14.92bn; less Hyperliquid (-0.86bn) and Binance customers (-1.38bn) = $12.68bn, 17.3% of the Q3 average before any other growth (19.5% in Q2)
+RLDC margin: Q1-26 41.4%, Q2-26 41.2%, H1 41.3%
+Guidance (ex-ARC full-year RLDC margin near 39%) implies H2 margin of 35.6% to 37.8% for H2 reserve income of $1.30bn to $1.40bn

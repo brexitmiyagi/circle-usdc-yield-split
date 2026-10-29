@@ -1,0 +1,6 @@
+Open-market sales (code S) dated 1 Jan to 27 Oct 2026: 288 transactions, 3,188,591 shares, $267.5m
+  of which in filings that cite a Rule 10b5-1 trading plan: $249.2m
+Open-market purchases (code P): 0 transactions, $0.0m
+  H1-26: $217.7m sold
+  Q3-26: $40.5m sold
+  Oct-26: $9.3m sold
