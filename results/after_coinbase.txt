@@ -20,4 +20,4 @@ My 2027 GAAP EPS $1.40; CRCL $81.71 = 58.4 times it
   COIN: $162.32 / $3.01 (Dec 2027, 13 estimates) = 53.9x -> Circle $75.50
   PYPL: $56.55 / $5.85 (Dec 2027, 14 estimates) = 9.7x -> Circle $13.53
   five-peer median 26.7x -> $37.31
-With the drag, at the base float the target runs $61.47 to $72.03 across the Fed paths; on the curve, -10% float $63.62, base $71.77, +10% $79.93
+With the drag, at the base float the target runs $62.79 to $73.54 across the Fed paths; on the curve, -10% float $64.97, base $73.28, +10% $81.58
