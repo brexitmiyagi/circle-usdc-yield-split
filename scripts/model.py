@@ -232,6 +232,8 @@ L.append(f"  The Street's Q4 revenue (${st_rev4:.0f}m) on my reserve income impl
          f"Getting to the Street's ${st_eps4:.3f} then needs ${cost_gap:.0f}m less pretax income in Q4: a keep of {keep_needed:.1%} instead of {q4['keep_pct']:.1f}%, "
          f"adjusted opex of ${q4['adj_opex'] + cost_gap:.0f}m instead of the ${q4['adj_opex']:.0f}m Circle's FY guide leaves for each H2 quarter, "
          f"or less of the ${q4['interest_income']:.0f}m I have Circle earning on its own cash.")
+e355 = q4_eps_at(3.55)
+L.append(f"  Two assumptions close it: Q3's {3.55:.2f}% reserve return gives ${e355:.2f}, and a 21% tax rate on that instead of {A['tax_rate_2026_pct']}% gives ${e355 * 0.79 / (1 - t):.2f}.")
 L.append(f"2027 tax: federal NOLs left after 2026 ${NOL_LEFT:.0f}m (from $478.8m, 80% limit, 2026 pretax ${PRE26:.0f}m), all used in 2027 against ${PRE27:.0f}m pretax; "
          f"2027 effective rate {T27:.1f}% (5.1% non-federal + federal on the unsheltered part). Valuation-allowance release left out.")
 with open(os.path.join(RESULTS, 'table_line_items.csv'), 'w', newline='') as fh:
