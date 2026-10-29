@@ -4,5 +4,7 @@ Q3-25,68,15,3,53,159,30,196
 Q4-25,76,18,3,58,172,33,192
 Q1-26,75,19,3,56,161,18,163
 Q2-26,77,20,3,57,174,28,146
+Q3-26,73,22,2,51,202,21,126
 # Corporate balances are a portion OF "USDC held in Coinbase products" (products + off-platform = total; Q2-26 174+146=320, slide 26 stablecoin revenue 292 = 320 less 28 corporate).
 # Coinbase Q2-26 earnings deck, appendix slide "USDC Balances & Revenue" (rounded to $1bn). Q4-25 cross-checked to Coinbase Q4-25 shareholder letter: products $17.8bn, $172m on-platform, $192m off-platform.
+# Q3-26 from the Coinbase Q3-26 earnings deck (8-K Ex. 99.1, 29 Oct 2026), same appendix slide; 202 - 21 + 126 = 307 = stablecoin revenue in the Q3-26 10-Q ($306.9m).
