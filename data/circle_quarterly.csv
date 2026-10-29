@@ -1,0 +1,7 @@
+quarter,days,reserve_income_musd,other_revenue_musd,distribution_transaction_costs_musd,other_costs_musd,usdc_avg_bn,usdc_end_bn,reserve_return_pct,circle_on_platform_pct,distribution_costs_to_coinbase_musd,source
+Q1-25,90,557.9,20.7,347.3,0.0,54.136,59.976,4.2,5.7,303.2,Circle 10-Q Q1-26 (prior-year column) and Q1-26 release quarterly table
+Q2-25,91,634.274,23.804,406.472,0.470,61.039,61.333,4.1,7.4,332.3,Circle 10-Q Q2-26 (prior-year column)
+Q3-25,92,711,29,447,0,67.842,73.749,4.2,13.5,353.6,Circle 10-Q Q3-25; Coinbase cost = nine months 989.1 less H1 635.5
+Q4-25,92,733,37,461,1,,75.266,,,,Circle Q1-26 release quarterly table; Circle 10-K FY25 (end USDC)
+Q1-26,90,652.5,41.6,405.4,1.379,75.200,77.049,3.5,17.2,330.6,Circle 10-Q Q1-26 and Q1-26 release
+Q2-26,91,667.733,33.582,410.414,2.056,76.524,73.269,3.5,19.5,324.6,Circle 10-Q Q2-26 and Q2-26 release

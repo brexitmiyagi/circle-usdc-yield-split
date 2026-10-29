@@ -1,0 +1,30 @@
+item,value,date,source
+crcl_price,79.84,2026-10-26,Yahoo close 4:00 PM ET (-6.07 or -7.07% vs the 85.91 Nasdaq close on 23 Oct)
+class_a_shares_out,234685190,2026-07-30,Circle 10-Q Q2-26 cover
+class_b_shares_out,19190691,2026-07-30,Circle 10-Q Q2-26 cover
+diluted_weighted_shares_q2,268637000,2026-06-30,Circle 10-Q Q2-26 (XBRL WeightedAverageNumberOfDilutedSharesOutstanding)
+corporate_cash_musd,1730.126,2026-06-30,Circle 10-Q Q2-26 (XBRL CashAndCashEquivalentsAtCarryingValue)
+sbc_q2_musd,53.6,2026-06-30,Circle 10-Q Q2-26 (XBRL ShareBasedCompensation)
+da_q2_musd,29.896,2026-06-30,Circle 10-Q Q2-26 (XBRL DepreciationAndAmortization)
+adj_ebitda_q2_musd,143.478,2026-06-30,Circle 10-Q Q2-26
+adj_opex_guide_low_musd,570,2026-08-05,Circle Q2-26 release guidance
+adj_opex_guide_high_musd,585,2026-08-05,Circle Q2-26 release guidance
+other_rev_guide_low_musd,310,2026-08-05,Circle Q2-26 release (includes recognized ARC Token presale revenue)
+other_rev_guide_high_musd,330,2026-08-05,Circle Q2-26 release (includes recognized ARC Token presale revenue)
+other_rev_guide_prior_low_musd,150,2026-08-05,Circle Q2-26 release (previous guidance)
+other_rev_guide_prior_high_musd,170,2026-08-05,Circle Q2-26 release (previous guidance)
+visa_forward_pe,27.15,2026-10-26,Yahoo Finance key statistics
+mastercard_forward_pe,26.96,2026-10-26,Yahoo Finance key statistics
+consensus_q3_revenue_musd,787.7,2026-10-26,Yahoo Finance analysis (19 analysts; low 714.01 high 873.3)
+consensus_q3_eps,0.38,2026-10-26,Yahoo Finance analysis (18 analysts)
+consensus_fy27_eps,1.43,2026-10-26,Yahoo Finance analysis (21 analysts)
+street_mean_target,107.48,2026-10-28,Yahoo mean of 24 targets (median $100.91); Nasdaq consensus $109.56 (12 buy / 6 hold / 3 sell)
+rate_sens_reserve_income_per_100bp_musd,737,2026-06-30,Circle 10-Q Q2-26 Item 3 (from 3.49% average yield in June 2026; USDC held at 30 Jun level)
+rate_sens_distribution_cost_per_100bp_musd,360,2026-06-30,Circle 10-Q Q2-26 Item 3
+crcl_52w_low,49.90,2026-10-26,Yahoo Finance and Seeking Alpha quote pages
+crcl_52w_high,147.44,2026-10-26,Yahoo Finance and Seeking Alpha quote pages
+arc_presale_proceeds_q2_musd,222.0,2026-06-30,Circle 10-Q Q2-26 (ARC token presale proceeds)
+rldc_margin_guide_low_pct,41.7,2026-08-05,Circle Q2-26 release (includes recognized ARC Token presale revenue)
+rldc_margin_guide_high_pct,43.7,2026-08-05,Circle Q2-26 release (includes recognized ARC Token presale revenue)
+crcl_close_2026_10_27,81.58,2026-10-27,Yahoo and Nasdaq close
+short_interest_pct_float,12.05,2026-10-28,Yahoo key statistics

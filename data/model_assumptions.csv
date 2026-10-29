@@ -1,0 +1,37 @@
+# Forecast and valuation assumptions for model.py. Each line says where it comes from. Judgement calls are marked.
+item,value,source
+usdc_avg_q3_26_bn,73.40,reserve_yield.py (DefiLlama Q3 average calibrated to Circle's Q2 average)
+reserve_return_q3_26_pct,3.55,reserve_yield.py pre-registered (Circle Reserve Fund Q3 net 7-day average less 0.08pt)
+reserve_return_q4_26_pct,3.90,judgement: fund 3.84% on 30 Sep less 0.08pt = 3.76% and October 3-month bill 4.24% less Circle's 0.23pt Q2 gap = 4.01%; fund lags
+bill_gap_pt,0.23,Circle Q2-26 reserve return 3.50% vs 3-month bill average 3.73% (Treasury)
+keep_base_yield_pct,3.55,the yield the Q3 keep is measured at
+other_revenue_ex_arc_h2_26_musd,64.8,Circle Q2-26 call: $130m-$150m for 2026 ex-ARC (midpoint $140m) less H1 actual $75.2m
+arc_revenue_q3_26_musd,90,judgement: Circle expects ~$180m of ARC revenue in 2026 (Q2 call); split evenly over Q3 and Q4
+arc_revenue_q4_26_musd,90,judgement as above
+arc_revenue_2027_musd,62.2,$242.2m presale less $180m recognized in 2026
+other_revenue_ex_arc_growth_2027_pct,10,judgement
+adj_opex_fy26_musd,585,Circle guidance $570m-$585m, 'expect to land at the higher end' (Q2 call)
+adj_opex_h1_26_musd,281,Q2-26 $146m (call) and Q1-26 $135m (Q2 'sequentially increased $11 million')
+adj_opex_growth_2027_pct,8,judgement
+gaap_opex_other_items_qtr_musd,25,GAAP opex less adjusted opex less stock pay less D&A: Q2-26 $25.0m (Q1-26 $28.7m)
+sbc_qtr_musd,53.6,Q2-26 10-Q
+da_qtr_musd,29.9,Q2-26 10-Q
+other_costs_qtr_musd,2.0,Q2-26 $2.1m
+tax_rate_2026_pct,5.1,H1-26 effective tax rate (5.531 / 108.991)
+share_drift_qtr_pct,0.5,judgement: Q1-26 to Q2-26 diluted shares rose 0.7%
+binance_shares_m,1.237011,Circle 8-K filed 22 Sep 2026 (issued 17 Sep)
+tazapay_consideration_musd,400,Circle 8-K filed 8 Sep 2026; shares = $400m / 20-day VWAP before closing; close expected 2027
+arc_stake_pct,25,Circle Q2-26 call (CEO: 'a 25% stakeholder in that network')
+arc_fdv_musd,3000,Circle 8-K filed 2 Jul 2026: presale at $0.30 'implying a fully diluted network valuation of $3 billion'
+arc_receivable_musd,20.2,Circle 10-Q Q2-26: presale proceeds not yet received at 30 Jun
+terminal_growth_pct,3,judgement
+reserve_return_today_pct,3.76,fund 30 Sep 3.84% less 0.08pt (earnings_power.py)
+binance_placement_cash_musd,100,Circle 8-K filed 22 Sep 2026
+# base case: the forecast table uses the JPMorgan path (largest weight) from Q4-26; valuation weights all three
+capex_qtr_musd,23.1,H1-26 capitalised software $35.8m + long-lived assets $10.4m
+rsu_withholding_qtr_musd,74.7,H1-26 $149.5m
+option_proceeds_qtr_musd,20.8,H1-26 $41.6m
+other_assets_fixed_note,0,receivables other than ARC prepaid and other assets held at 30 Jun levels (judgement)
+use_rate_table_for_keep,0,"0 = keep held at the measured level as yields move (what backtest_keep.py supports: the rate table made the last four quarters worse); 1 = Circle's 10-Q rate table, 51.2% of any yield change"
+federal_nol_end_2025_musd,478.8,Circle 10-K FY25 income tax note: US federal NOL carryforwards $478.8m (indefinite); full US valuation allowance
+pretax_h1_26_musd,108.991,Circle 10-Q Q2-26: income from continuing operations before income taxes, six months

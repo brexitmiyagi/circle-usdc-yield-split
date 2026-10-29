@@ -1,0 +1,8 @@
+quarter,usdc_avg_mktcap_bn,usdc_in_coinbase_products_bn,usdc_coinbase_corporate_bn,usdc_off_platform_bn,rev_products_musd,rev_corporate_musd,rev_off_platform_musd
+Q2-25,61,14,2,47,144,24,188
+Q3-25,68,15,3,53,159,30,196
+Q4-25,76,18,3,58,172,33,192
+Q1-26,75,19,3,56,161,18,163
+Q2-26,77,20,3,57,174,28,146
+# Corporate balances are a portion OF "USDC held in Coinbase products" (products + off-platform = total; Q2-26 174+146=320, slide 26 stablecoin revenue 292 = 320 less 28 corporate).
+# Coinbase Q2-26 earnings deck, appendix slide "USDC Balances & Revenue" (rounded to $1bn). Q4-25 cross-checked to Coinbase Q4-25 shareholder letter: products $17.8bn, $172m on-platform, $192m off-platform.

@@ -1,0 +1,7 @@
+# Street consensus for Circle (CRCL), read 28 Oct 2026. EPS is GAAP diluted (Yahoo: defaultMethodology gaap; Q2-26 actual $0.18 = GAAP).
+# Yahoo: query2.finance.yahoo.com quoteSummary earningsTrend (analyst counts in brackets in the source); Nasdaq: api.nasdaq.com/api/analyst/CRCL/earnings-forecast (Zacks data).
+period,revenue_musd_yahoo,eps_yahoo,eps_nasdaq,analysts_rev_yahoo,analysts_eps_yahoo,analysts_eps_nasdaq
+Q3-26,786.91,0.379,0.40,20,18,9
+Q4-26,832.69,0.334,0.32,19,18,9
+FY26,3026.00,1.111,1.10,25,22,9
+FY27,3835.10,1.412,1.37,25,20,9

@@ -1,0 +1,6 @@
+# Circle quarterly actuals, $m except per share. GAAP lines from SEC XBRL (companyfacts) and 10-Q/10-K tables; Q4-25 = FY25 less 9M-25.
+quarter,total_revenue,reserve_income,other_revenue,distribution_transaction_costs,other_costs,gaap_opex,operating_income,nonoperating,pretax,tax,net_income,diluted_eps,diluted_shares_m,sbc,da,corporate_cash_end,total_assets_end,total_liabilities_end,equity_end
+Q3-25,739.759,711.0,29.0,447.0,0.0,211.127,81.020,72.071,153.091,-61.294,214.385,0.64,266.682,59.100,23.002,1348.901,76781.008,73757.652,3023.356
+Q4-25,770.232,733.0,37.0,461.0,1.0,253.595,55.187,84.995,140.182,6.776,133.416,0.43,,59.414,25.536,1526.046,78713.207,75382.434,3329.327
+Q1-26,694.133,652.508,41.625,405.402,1.379,242.350,45.002,11.683,56.685,1.439,55.253,0.21,266.687,51.836,26.767,1517.264,80536.778,77108.147,3427.204
+Q2-26,701.315,667.733,33.582,410.414,2.056,254.486,34.359,17.947,52.306,4.092,48.221,0.18,268.637,53.600,29.896,1730.126,77165.460,73655.485,3508.582

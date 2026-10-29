@@ -1,0 +1,5 @@
+# Binance proof of reserves, total held by Binance (binanceLiability) for every stablecoin listed, $m, on the three dates Circle's prospectus cites. Pulled 27 Oct 2026.
+snapshot,usdt,fdusd,usdc,tusd,busd
+2024-07-01,24921,1638,1423,36,7
+2025-01-01,27663,1783,3296,17,5
+2025-04-01,29572,2184,6944,18,3

@@ -1,0 +1,5 @@
+# USDC (0xb88339cb7199b77e23db6e890353e22632ba630f) on HyperEVM, read with eth_call balanceOf/totalSupply at one block via https://rpc.hyperliquid.xyz/evm. The public RPC does not serve historical state, so this is a current snapshot only.
+block,utc,item,address,usdc
+49652390,2026-10-27T09:59:03+00:00,total_supply,,6460992188.16
+49652390,2026-10-27T09:59:03+00:00,coinbase_aqa_treasury,0xc20699185c15D0a2fD65779BB5d69f5b0B113c00,5649409036.84
+49652390,2026-10-27T09:59:03+00:00,circle_technical_deployer_linked_contract,0x6b9e773128f453f5c2c60935ee2de2cbc5390a24,627712115.20

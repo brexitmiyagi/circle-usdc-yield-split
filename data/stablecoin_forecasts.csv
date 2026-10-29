@@ -1,0 +1,5 @@
+# Published stablecoin market forecasts used as scenario anchors. Total stablecoin supply, $bn.
+scenario,target_bn,by_year_end,source
+flat,302.3,,"Last 12 months: total supply between about $300bn and $320bn (Standard Chartered, via The Block, 14 Oct 2026); $302.3bn on 26 Oct 2026 (DefiLlama)"
+jpmorgan,550,2028,"JPMorgan (Panigirtzoglou), 'perhaps reaching $500 billion-$600 billion by 2028' (The Block, 18 Dec 2025); midpoint used"
+standard_chartered,2000,2030,"Standard Chartered (Kendrick), $2 trillion by 2030, pushed back from 2028 (The Block and KuCoin, 14 Oct 2026)"

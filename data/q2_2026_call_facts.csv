@@ -1,0 +1,11 @@
+item,value,source
+hyperliquid_usdc_on_coinbase_platform_pct_q2_end,90,"Circle Q2-26 call, CFO: 'approximately 90% of Hyperliquid's total USDC was held within Coinbase's platform' (Motley Fool and gloom.sh transcripts)"
+hyperliquid_usdc_on_circle_platform_pct_q2_end,10,Same answer: 'about 10% ... within Circle's platform'
+hyperliquid_share_of_reserve_income_passed_by_coinbase_pct,90,"JPMorgan note of 14 Jul 2026 via CoinDesk: Coinbase collects the reserve income and pays 90% to Hyperliquid"
+fy26_rldc_margin_ex_arc_guide_pct,39,"Circle Q2-26 call, CFO: excluding ARC revenue, full-year RLDC margin 'near the midpoint of the prior range' (prior range 38% to 40%)"
+fy26_rldc_margin_ex_arc_guide_low_pct,38.5,judgement: 'near the midpoint' read as 38.5% to 39.5%
+fy26_rldc_margin_ex_arc_guide_high_pct,39.5,judgement: 'near the midpoint' read as 38.5% to 39.5%
+fy26_other_revenue_ex_arc_low_musd,130,"Circle Q2-26 call: remaining products expected to deliver $130m to $150m"
+fy26_other_revenue_ex_arc_high_musd,150,Same
+arc_presale_gross_musd,242.2,"Circle 10-Q Q2-26: aggregate gross proceeds approximately $242.2m, of which $222.0m received in Q2"
+arc_revenue_expected_2026_musd,180,Circle Q2-26 call

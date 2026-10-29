@@ -1,0 +1,6 @@
+# Circle annual and half-year reserve income and distribution costs, $m, with what was paid to Coinbase and what the filings say about Binance.
+period,reserve_income_musd,distribution_transaction_costs_musd,paid_to_coinbase_musd,basis,source
+FY23,1430.606,719.806,691.3,prospectus,"Circle 424B4 (5 Jun 2025): income statement; Coinbase costs 'For the years ended December 31, 2024, 2023, and 2022, we incurred $907.9 million, $691.3 million'"
+FY24,1661.084,1010.811,924.5,10-K FY25,"Circle 10-K FY25: income statement; 'For the years ended December 31, 2025 and 2024, we incurred $1.4 billion and $924.5 million' (the prospectus showed $907.9m for FY24 on its earlier basis)"
+FY25,2636.822,1661.549,1362.9,10-K FY25,"Circle 10-K FY25: income statement; Coinbase = FY24 $924.5m + '$438.4 million increase in distribution costs paid to Coinbase'"
+H1-26,1320.241,815.816,655.3,10-Q Q2-26,"Circle 10-Q Q2-26: six-month distribution and transaction costs $815,816k; 'we incurred $655.3 million' with Coinbase; reserve income $652,508k (Q1-26 10-Q) + $667,733k"
