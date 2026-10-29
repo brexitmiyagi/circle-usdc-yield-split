@@ -35,5 +35,6 @@ for name, d in (('with the rate drag', v.DRAG), ('no rate drag', 0.0)):
         L.append(f'  {s:+.2f}  ' + ''.join(f'{x:9.2f}' for x in row))
         csv.append(f'{d:.3f},{s},' + ','.join(f'{x:.2f}' for x in row))
 save('rates_float_grid.txt', '\n'.join(L) + '\n')
-with open(os.path.join(HERE, '..', 'results', 'rates_float_grid.csv'), 'w') as f:
+import common
+with open(os.path.join(common.RESULTS, 'rates_float_grid.csv'), 'w') as f:
     f.write('\n'.join(csv) + '\n')

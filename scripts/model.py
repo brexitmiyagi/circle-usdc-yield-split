@@ -52,7 +52,7 @@ end_usdc['Q3-26'] = float([r for r in supply if r['date'] == '2026-09-30'][0]['u
 for i, qq in enumerate(Q[1:], 1):
     end_usdc[qq] = flt[qq] * (1 + g) ** 0.125 if i > 1 else float(supply[-1]['usdc_usd']) / 1e9 * cal
 
-K0, Y0 = HLQ['q3_keep_mid_bias_adjusted'] / 100, A['keep_base_yield_pct']
+K0, Y0 = float(os.environ.get('KEEP_OVERRIDE_PCT', HLQ['q3_keep_mid_bias_adjusted'])) / 100, A['keep_base_yield_pct']   # after_coinbase.py can override
 MU = MARG if A['use_rate_table_for_keep'] else K0     # keep held as yields move unless the rate table is switched on
 def kept(f, y, d): return f * (Y0 * K0 + (y - Y0) * MU) / 100 * 1000 * d / 365
 

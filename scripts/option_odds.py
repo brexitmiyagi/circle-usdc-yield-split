@@ -7,11 +7,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from common import read, num, DATA, save
 
-FILE = 'crcl_options_20261028_close.csv'
+import glob
+FILE = os.path.basename(sorted(glob.glob(os.path.join(DATA, 'crcl_options_*_close.csv')))[-1])   # the latest close on file
 rows = read(FILE)
 with open(os.path.join(DATA, FILE)) as f:
     S = float(f.readline().split('closed at ')[1].split(' ')[0])
-NOW = dt.date(2026, 10, 28); R = 0.045
+NOW = dt.datetime.strptime(FILE.split('_')[2], '%Y%m%d').date(); R = 0.045
 N = lambda x: 0.5 * (1 + math.erf(x / math.sqrt(2)))
 Q = {(r['expiry'], r['type'], num(r['strike'])): r for r in rows}
 
@@ -55,7 +56,16 @@ def mid(e, cp, k):
     r = Q[(e, cp, float(k))]; return (num(r['bid']) + num(r['ask'])) / 2
 
 
-L = [f'CRCL {S:.2f} at the 28 Oct close']
+def sessions(a, b):
+    # weekdays after a up to and including b
+    n, d = 0, a
+    while d < b:
+        d += dt.timedelta(days=1); n += d.weekday() < 5
+    return n
+
+
+EV = dt.date(2026, 11, 4)
+L = [f'CRCL {S:.2f} at the {NOW:%d %b} close ({FILE})']
 # liquidity: the first expiry I looked at against the one I use
 for e in ('20261113', '20261120'):
     for k in (70, 80):
@@ -65,7 +75,8 @@ for e in ('20261113', '20261120'):
 # event size: 6 Nov straddle and the event-day move with the ordinary days stripped out (30 Oct expiry as the base vol)
 atm = lambda e: (num(Q[(e, 'C', 80.0)]['iv']) + num(Q[(e, 'P', 80.0)]['iv'])) / 2
 strad = mid('20261106', 'C', 80) + mid('20261106', 'P', 80)
-ev = math.sqrt(atm('20261106') ** 2 * 7 / 252 - atm('20261030') ** 2 * 6 / 252)
+n6, nb = sessions(NOW, dt.date(2026, 11, 6)), sessions(NOW, dt.date(2026, 10, 30))
+ev = math.sqrt(max(1e-6, atm('20261106') ** 2 * n6 / 252 - atm('20261030') ** 2 * (n6 - 1) / 252))
 L.append(f'6 Nov $80 straddle ${strad:.2f} = {strad / S:.1%} of the price; event-day sd {ev:.1%}, expected move {ev * math.sqrt(2 / math.pi):.1%}')
 # the spread
 E = '20261120'; HI, LO = 80, 70
@@ -77,7 +88,8 @@ L.append(f'20 Nov ${HI}/${LO} put spread: ${cost:.2f} mid, ${nat:.2f} paying the
 L.append(f'  market odds CRCL finishes below ${BE:.2f}: {pm:.1%}; below ${LO}: {p_below(LO, E):.1%}')
 # after the report the event is gone from the vol: take it out of the 20 Nov ATM vol (17 sessions from 28 Oct)
 iv20 = smile(E)
-base = math.sqrt((iv20(S) ** 2 * 17 / 252 - ev ** 2) / (16 / 252))
+n20 = sessions(NOW, dt.date(2026, 11, 20))
+base = math.sqrt((iv20(S) ** 2 * n20 / 252 - ev ** 2) / ((n20 - 1) / 252))
 t_after = yrs(E, dt.date(2026, 11, 4))
 L.append(f'  20 Nov ATM vol {iv20(S):.1%}; with the event taken out {base:.1%}')
 for name, mv in (('down 15%', -0.15), ('flat', 0.0), ('up 15%', 0.15)):
@@ -88,7 +100,7 @@ for name, mv in (('down 15%', -0.15), ('flat', 0.0), ('up 15%', 0.15)):
 TREE = {'ARC in Q3': (0.5, {'up': 0.45, 'flat': 0.35, 'down': 0.20}), 'ARC in Q4': (0.5, {'up': 0.15, 'flat': 0.35, 'down': 0.50})}
 MOVE = {'up': 0.15, 'flat': 0.0, 'down': -0.12}
 P = {k: sum(w * br[k] for w, br in TREE.values()) for k in MOVE}
-sd = base * math.sqrt(12 / 252)          # 12 sessions from the 4 Nov close to expiry
+sd = base * math.sqrt(sessions(EV, dt.date(2026, 11, 20)) / 252)   # sessions from the 4 Nov close to expiry
 random.seed(7); n = 200000; below = pay = 0
 for _ in range(n):
     u = random.random(); c = 0
@@ -97,7 +109,7 @@ for _ in range(n):
         if u <= c: break
     st = S * (1 + MOVE[k]) * math.exp(-sd * sd / 2 + sd * random.gauss(0, 1))
     below += st < BE; pay += min(HI - LO, max(0.0, HI - st))
-L.append(f'My tree: up 15% {P["up"]:.0%}, flat {P["flat"]:.0%}, down 12% {P["down"]:.0%} on the day; then {base:.0%} vol for 12 sessions')
+L.append(f'My tree: up 15% {P["up"]:.0%}, flat {P["flat"]:.0%}, down 12% {P["down"]:.0%} on the day; then {base:.0%} vol for {sessions(EV, dt.date(2026, 11, 20))} sessions')
 L.append(f'  my odds below ${BE:.2f}: {below / n:.1%}; my expected value ${pay / n:.2f} against ${cost:.2f} mid and ${nat:.2f} paying the offer')
 L.append('  ' + ('no edge: I do not hold a position into the report' if pay / n < cost else 'my odds beat the price'))
 # the post-report setup, indicative only (flat vol, no skew)

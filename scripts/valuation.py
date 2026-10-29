@@ -39,7 +39,7 @@ HLQ = {r['item']: num(r['value']) for r in read('hyperliquid_q3.csv', folder='re
 COE = {r['item']: num(r['value']) for r in read('cost_of_equity.csv', folder='results')}
 DR = {r['item']: num(r['value']) for r in read('rate_drag.csv', folder='results')}
 DRAG = DR['drag_per_100bp_pct'] / 100
-K0, Y0 = HLQ['q3_keep_mid_bias_adjusted'] / 100, A['keep_base_yield_pct']   # backtested method, corrected for its average miss
+K0, Y0 = float(os.environ.get('KEEP_OVERRIDE_PCT', HLQ['q3_keep_mid_bias_adjusted'])) / 100, A['keep_base_yield_pct']   # after_coinbase.py can override   # backtested method, corrected for its average miss
 RATE = COE['coe_adjusted_pct'] / 100
 MARG = ep.MARG
 MU = MARG if A['use_rate_table_for_keep'] else None     # None = keep held at K0 as yields move
