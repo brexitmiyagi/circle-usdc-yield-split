@@ -1,0 +1,23 @@
+Circle paid Coinbase minus Coinbase USDC revenue: Q3-25 -1.4, Q4-25 +9.8, Q1-26 +6.6, Q2-26 +4.6
+Coinbase Q3-26 USDC revenue $328m (products $202m incl. corporate $21m, off-platform $126m)
+Implied Circle payment to Coinbase, Q3-26: $326.6m to $337.8m, central $332.9m
+Revenue on customer USDC in Coinbase products: Q2 $146m, Q3 $181m (+35m)
+Bridge: Q2 $320m +30.3 Hyperliquid (contract arithmetic at Q3's return) +4.7 other customer balances and rates -7 Coinbase's corporate USDC -20 off-platform = Q3 $328m
+Everyone else at Q2's 12.9% of reserve income -> keep 36.4% central; range 34.6% to 38.3%
+Q3-26: GAAP EPS $0.41, without ARC $0.09, keep 36.4%
+Q4-26: GAAP EPS $0.49, without ARC $0.17, keep 36.4%
+FY26: GAAP EPS $1.28, without ARC $0.65, keep 37.3%
+FY27: GAAP EPS $1.40, without ARC $1.22, keep 36.4%
+Q3-26 reported margin 46.1%, Q4-26 45.4%; Q3 distribution and transaction costs $418m
+Value today $65.66, 12-month target $73.28; options cross-check target $83.70
+Hold range (target within 15% of the price): $63.72 to $86.21
+Q4-26 walk: my GAAP EPS $0.49 at a 3.90% reserve return; $0.45 at 3.76% (fund at end-Sep less 0.08pt); $0.40 at Q3's 3.55%.
+  Two assumptions close it: Q3's 3.55% reserve return gives $0.40, and a 21% tax rate on that instead of 5.1% gives $0.33.
+My 2027 GAAP EPS $1.40; CRCL $81.71 = 58.4 times it
+  V: $400.60 / $15.03 (Sep 2027, 16 estimates) = 26.7x -> Circle $37.31
+  MA: $610.31 / $22.95 (Dec 2027, 17 estimates) = 26.6x -> Circle $37.23
+  HOOD: $91.43 / $3.09 (Dec 2027, 10 estimates) = 29.6x -> Circle $41.42
+  COIN: $162.32 / $3.01 (Dec 2027, 13 estimates) = 53.9x -> Circle $75.50
+  PYPL: $56.55 / $5.85 (Dec 2027, 14 estimates) = 9.7x -> Circle $13.53
+  five-peer median 26.7x -> $37.31
+With the drag, at the base float the target runs $61.47 to $72.03 across the Fed paths; on the curve, -10% float $63.62, base $71.77, +10% $79.93

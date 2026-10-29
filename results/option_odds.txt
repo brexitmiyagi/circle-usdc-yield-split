@@ -1,16 +1,16 @@
-CRCL 81.71 at the 28 Oct close
-  20261113 $70 put: 1.60/1.79, 11% wide, open interest 209
-  20261113 $80 put: 5.05/5.50, 9% wide, open interest 1048
-  20261120 $70 put: 2.05/2.28, 11% wide, open interest 4637
-  20261120 $80 put: 5.80/6.20, 7% wide, open interest 5141
-6 Nov $80 straddle $10.43 = 12.8% of the price; event-day sd 10.5%, expected move 8.4%
-20 Nov $80/$70 put spread: $3.83 mid, $4.15 paying the offer, break-even $76.17 (-6.8%)
-  market odds CRCL finishes below $76.17: 39.2%; below $70: 24.6%
-  20 Nov ATM vol 83.6%; with the event taken out 75.4%
-  marked at the 4 Nov close, CRCL down 15% (69.45): spread worth $6.89 (+80%)
-  marked at the 4 Nov close, CRCL flat (81.71): spread worth $3.11 (-19%)
-  marked at the 4 Nov close, CRCL up 15% (93.97): spread worth $0.90 (-77%)
-My tree: up 15% 30%, flat 35%, down 12% 35% on the day; then 75% vol for 12 sessions
-  my odds below $76.17: 39.3%; my expected value $3.65 against $3.83 mid and $4.15 paying the offer
+CRCL 79.99 at the 29 Oct close (crcl_options_20261029_close.csv)
+  20261113 $70 put: 1.71/2.06, 19% wide, open interest 283
+  20261113 $80 put: 5.70/6.15, 8% wide, open interest 1050
+  20261120 $70 put: 2.37/2.53, 7% wide, open interest 4630
+  20261120 $80 put: 6.35/6.85, 8% wide, open interest 5235
+6 Nov $80 straddle $10.07 = 12.6% of the price; event-day sd 10.1%, expected move 8.1%
+20 Nov $80/$70 put spread: $4.15 mid, $4.48 paying the offer, break-even $75.85 (-5.2%)
+  market odds CRCL finishes below $75.85: 42.6%; below $70: 27.8%
+  20 Nov ATM vol 84.8%; with the event taken out 77.1%
+  marked at the 4 Nov close, CRCL down 15% (67.99): spread worth $7.33 (+77%)
+  marked at the 4 Nov close, CRCL flat (79.99): spread worth $3.65 (-12%)
+  marked at the 4 Nov close, CRCL up 15% (91.99): spread worth $1.19 (-71%)
+My tree: up 15% 30%, flat 35%, down 12% 35% on the day; then 77% vol for 12 sessions
+  my odds below $75.85: 42.9%; my expected value $4.07 against $4.15 mid and $4.48 paying the offer
   no edge: I do not hold a position into the report
-Indicative, after a 15% rally: Dec $90/$80 put spread at CRCL 93.97, 75% vol: $3.90
+Indicative, after a 15% rally: Dec $90/$80 put spread at CRCL 91.99, 77% vol: $4.25
