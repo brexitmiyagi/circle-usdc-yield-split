@@ -43,6 +43,8 @@ out = os.path.join(HERE, '..', 'results', 'after_coinbase'); os.makedirs(out, ex
 for f in glob.glob(os.path.join(HERE, '..', 'results', '*.csv')): shutil.copy(f, out)
 common.RESULTS = out
 os.environ['KEEP_OVERRIDE_PCT'] = f'{k_mid * 100:.2f}'
+for mod in ('valuation', 'model'):      # run_all may have imported these already with the pre-report keep
+    sys.modules.pop(mod, None)
 with contextlib.redirect_stdout(io.StringIO()):
     runpy.run_path(os.path.join(HERE, 'model.py'), run_name='__main__')
     runpy.run_path(os.path.join(HERE, 'valuation.py'), run_name='__main__')
