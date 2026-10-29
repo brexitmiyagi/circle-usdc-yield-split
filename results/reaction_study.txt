@@ -1,0 +1,7 @@
+Report     day move  5-session  revenue vs consensus     USDC end (q/q)    keep (prior)   what moved it
+Q2-25 2025-08-12    +1.3%    -12.2%   $658m vs $645m   $61.3bn (+2.3%)   35.9% (37.7%)   10m-share follow-on (2m primary 8m holders) announced in extended trading that day
+Q3-25 2025-11-12   -12.2%    -22.1%   $740m vs $707m   $73.7bn (+20.2%)   37.1% (35.9%)   Costs and rates despite record USDC growth
+Q4-25 2026-02-25   +35.5%    +62.3%   $770m vs $739m   $75.3bn (+2.1%)   37.1% (37.1%)   Beat plus higher margin guide from a $61 close
+Q1-26 2026-05-11   +15.9%     +0.3%   $694m vs $715m   $77.0bn (+2.4%)   37.9% (37.1%)   Margin and ARC news
+Q2-26 2026-08-05    +0.0%    +12.5%   $701m vs $712m   $73.3bn (-4.9%)   38.5% (37.9%)   Better margin against the first quarterly fall in USDC
+Closes from prices_daily.csv (Yahoo); I matched every one of these against Nasdaq.

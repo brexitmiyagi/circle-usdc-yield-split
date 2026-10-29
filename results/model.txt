@@ -24,6 +24,7 @@ Line by line (my numbers; Street revenue/EPS from Yahoo; Circle FY26 guidance fr
   Guidance-implied FY26 adj EBITDA on the Street's $3026m revenue: $677m to $752m; mine $723m
 Q4-26 walk: my GAAP EPS $0.47 at a 3.90% reserve return; $0.44 at 3.76% (fund at end-Sep less 0.08pt); $0.38 at Q3's 3.55%.
   The Street's Q4 revenue ($833m) on my reserve income implies $83m of ARC; with that, my EPS is $0.45. Getting to the Street's $0.334 then needs $32m less pretax income in Q4: a keep of 31.3% instead of 35.7%, adjusted opex of $184m instead of the $152m Circle's FY guide leaves for each H2 quarter, or less of the $19m I have Circle earning on its own cash.
+  Two assumptions close it: Q3's 3.55% reserve return gives $0.38, and a 21% tax rate on that instead of 5.1% gives $0.32.
 2027 tax: federal NOLs left after 2026 $196m (from $478.8m, 80% limit, 2026 pretax $354m), all used in 2027 against $451m pretax; 2027 effective rate 17.0% (5.1% non-federal + federal on the unsheltered part). Valuation-allowance release left out.
 
 Headline call, Q3-26 EPS ex-ARC: $0.07; each point of keep moves it $0.023, each $10m of opex $0.035; range $0.01 to $0.13 (keep 34.7% to 36.7%, opex +/- $10m)

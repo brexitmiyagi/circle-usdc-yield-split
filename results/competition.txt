@@ -1,0 +1,9 @@
+All stablecoins: $305.4bn a year ago, $300.3bn now (-1.7%)
+  USDT (Tether): $183.47bn -> $180.81bn (-1.4% in a year; -1.6% since 30 Sep); share 60.1% -> 60.2%
+  USDC (Circle): $75.76bn -> $71.35bn (-5.8% in a year; -4.3% since 30 Sep); share 24.8% -> 23.8%
+  USD1 (World Liberty Financial): $2.98bn -> $3.90bn (+30.9% in a year; -12.0% since 30 Sep); share 1.0% -> 1.3%
+  USDG (Paxos (Global Dollar Network)): $0.97bn -> $3.07bn (+216.5% in a year; -0.6% since 30 Sep); share 0.3% -> 1.0%
+  PYUSD (PayPal (issued by Paxos)): $2.79bn -> $3.00bn (+7.5% in a year; +10.3% since 30 Sep); share 0.9% -> 1.0%
+  RLUSD (Ripple): $0.91bn -> $2.60bn (+185.7% in a year; +3.2% since 30 Sep); share 0.3% -> 0.9%
+  USD1, USDG, PYUSD and RLUSD together added $4.92bn in a year; USDC lost $4.41bn
+  USDC end-September: $73.19bn in 2025, $74.57bn in 2026 (+1.9%)

@@ -1,0 +1,16 @@
+CRCL 81.71 at the 28 Oct close
+  20261113 $70 put: 1.60/1.79, 11% wide, open interest 209
+  20261113 $80 put: 5.05/5.50, 9% wide, open interest 1048
+  20261120 $70 put: 2.05/2.28, 11% wide, open interest 4637
+  20261120 $80 put: 5.80/6.20, 7% wide, open interest 5141
+6 Nov $80 straddle $10.43 = 12.8% of the price; event-day sd 10.5%, expected move 8.4%
+20 Nov $80/$70 put spread: $3.83 mid, $4.15 paying the offer, break-even $76.17 (-6.8%)
+  market odds CRCL finishes below $76.17: 39.2%; below $70: 24.6%
+  20 Nov ATM vol 83.6%; with the event taken out 75.4%
+  marked at the 4 Nov close, CRCL down 15% (69.45): spread worth $6.89 (+80%)
+  marked at the 4 Nov close, CRCL flat (81.71): spread worth $3.11 (-19%)
+  marked at the 4 Nov close, CRCL up 15% (93.97): spread worth $0.90 (-77%)
+My tree: up 15% 30%, flat 35%, down 12% 35% on the day; then 75% vol for 12 sessions
+  my odds below $76.17: 39.3%; my expected value $3.65 against $3.83 mid and $4.15 paying the offer
+  no edge: I do not hold a position into the report
+Indicative, after a 15% rally: Dec $90/$80 put spread at CRCL 93.97, 75% vol: $3.90

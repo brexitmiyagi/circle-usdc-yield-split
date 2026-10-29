@@ -1,0 +1,4 @@
+60 days: CRCL on COIN beta 1.02, R2 0.82, residual vol 34.9% a year (10.1% a month); adding bitcoin: betas 1.08/-0.15, residual vol 35.0%
+125 days: CRCL on COIN beta 1.05, R2 0.63, residual vol 55.3% a year (16.0% a month); adding bitcoin: betas 0.97/0.20, residual vol 55.3%
+250 days: CRCL on COIN beta 1.00, R2 0.57, residual vol 62.4% a year (18.0% a month); adding bitcoin: betas 0.92/0.18, residual vol 62.4%
+CRCL/COIN price ratio at the 28 Oct close: 0.503
