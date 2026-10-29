@@ -1,0 +1,7 @@
+# Zacks consensus EPS via api.nasdaq.com/api/analyst/<ticker>/earnings-forecast, read 29 Oct 2026. Calendar 2027 except Visa (fiscal year to Sep 2027).
+ticker,fiscal_end,eps,estimates
+V,Sep 2027,15.03,16
+MA,Dec 2027,22.95,17
+PYPL,Dec 2027,5.85,14
+COIN,Dec 2027,3.01,13
+HOOD,Dec 2027,3.09,10

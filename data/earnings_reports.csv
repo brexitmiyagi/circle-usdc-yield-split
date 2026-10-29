@@ -1,0 +1,8 @@
+# Circle's five earnings reports to date. Release text from each 8-K Exhibit 99.1 on EDGAR (acceptance time in UTC, all before the 9:30 ET open).
+# Revenue consensus is one outlet per report, read 29 Oct 2026; outlets differ, so treat it as approximate. Coverage is what that outlet said moved the stock.
+quarter,report_date,accepted_utc,revenue_musd,revenue_consensus_musd,consensus_source,usdc_end_bn,guidance_and_margin,what_moved_it,coverage
+Q2-25,2025-08-12,2025-08-12T10:27Z,658,644.7,Motley Fool (12 Aug 2025),61.3,First guide: RLDC margin 36-38%; adjusted opex up to $490m,10m-share follow-on (2m primary 8m holders) announced in extended trading that day,Benzinga
+Q3-25,2025-11-12,2025-11-12T11:26Z,740,706.7,TipRanks,73.7,Adjusted opex guide raised to $495-510m; RLDC margin 39% down 270bp y/y (Zacks); other revenue guide raised,Costs and rates despite record USDC growth,Fortune (Mizuho quote); TipRanks
+Q4-25,2026-02-25,2026-02-25T11:26Z,770,739.4,Zacks via Finviz ($745m StreetInsider),75.3,FY26 RLDC margin guide 38-40% vs FY25 ~38%; opex $570-585m,Beat plus higher margin guide from a $61 close,StreetInsider; Finviz
+Q1-26,2026-05-11,2026-05-11T10:27Z,694,715.1,Zacks (miss 2.93%),77.0,Guide held; RLDC margin 41%; $222m ARC presale disclosed,Margin and ARC news,Zacks via MetaTrader; Yahoo
+Q2-26,2026-08-05,2026-08-05T10:12Z,701,712,Parameter,73.3,Other revenue and RLDC guides raised to include ARC (310-330 and 41.7-43.7%),Better margin against the first quarterly fall in USDC,Parameter (Morgan Stanley quote); Kucoin and Stocktwits premarket

@@ -1,0 +1,8 @@
+# Final closes for 28 Oct 2026. prices_daily.csv was pulled during that session, so its last row is not the close; these replace it where used.
+ticker,close,sources
+CRCL,81.71,Yahoo and Nasdaq
+COIN,162.32,Yahoo and Nasdaq
+V,400.60,Nasdaq
+MA,610.31,Nasdaq
+PYPL,56.55,Nasdaq
+HOOD,91.43,Nasdaq
